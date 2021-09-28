@@ -1,0 +1,17 @@
+.zines-img{
+    width: 81%;
+    margin-left: 9.5%;
+    margin-top: 4px;
+    box-shadow: 6px 6px 12px;
+    margin-bottom: 37px;
+    filter: contrast(129%);
+}
+.zines-img-title{
+    font-size: 23px;
+    margin-top: -11px;
+    margin-bottom: 27px;
+    font-family: 'Crafty Girls', serif;
+    color: rgb(16,89,198);
+    filter: contrast(200%);
+    text-decoration: none;
+}
