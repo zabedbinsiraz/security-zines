@@ -3,6 +3,8 @@ import "./Header.css";
 import upcomingImg from '../../Assets/Images/upcoming.png';
 import launch1 from '../../Assets/Images/newLaunch.png';
 import launch2 from '../../Assets/Images/newLaunch2.png';
+import { Pulse } from '../../Styles/Styles';
+
 
 const HeaderBanner = () => {
     return (
@@ -34,7 +36,7 @@ const HeaderBanner = () => {
                 title
               "
             >
-              its your security solution
+              simple explanations for security topics
               <a href="/" target="_blank">Jabed</a>
             </h1>
           </div>
@@ -60,10 +62,17 @@ const HeaderBanner = () => {
 
                 <div className="row">
                     <div className="col upcoming">
-                        <h4 className="text-center pulse animated infinite upcoming-text">
+                        {/* <h4 className="text-center animate_pulse animate_animated animate_infinite upcoming-text">
                             Upcoming ....
 
-                        </h4>
+                        </h4> */}
+
+                        <div style={{height:"100px",width:"250px",margin:"0 auto"}}>
+                        <Pulse>Upcoming ...</Pulse>
+                        </div>
+
+                        
+                        
                         <img data-bss-hover-animate="pulse" src={upcomingImg} alt="upcoming-img" className="animated pulse upcoming-img" />
 
                     </div>

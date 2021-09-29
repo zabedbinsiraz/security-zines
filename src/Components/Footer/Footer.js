@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = () => {
     return (
-        <footer className="footer-dark" style={{marginTop:"5%",background:"darkgrey"}}>
+        <footer className="footer-dark" style={{marginTop:"5%"}}>
 
         <section className="newsletter-subscribe subscribe">
             <div className="container">
@@ -33,7 +33,7 @@ const Footer = () => {
         <div className="container">
             <div className="col item social" style={{marginTop:"0"}}>
             <a href="/" style={{width:"41px",height:"40px"}}>
-            <i className="icon icon-social-facebook" style={{fontSize:"36px"}}>f</i>
+            <i className="icon icon-social-facebook" style={{fontSize:"36px"}}></i>
             </a>
             </div>
             <p className="copyright">

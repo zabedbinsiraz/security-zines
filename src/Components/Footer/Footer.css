@@ -17,13 +17,13 @@
 }
 .subscribe-title{
     font-size: 30px;
-    font-family: 'Crafty Girls', serif;
+    /* font-family: 'Crafty Girls', serif; */
     text-shadow: 5px 4px 7px rgb(119 125 130);
 }
 .subscribe-text{
     color: palevioletred;
     font-size: 21px;
-    font-family: 'Concert One', serif;
+    /* font-family: 'Concert One', serif; */
     box-shadow: 0px 0px;
 }
 

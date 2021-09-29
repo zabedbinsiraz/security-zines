@@ -6,21 +6,21 @@ const PrintItems = () => {
   return (
     <div
       className="container zines"
-      style={{ background: "grey", marginTop: "0", marginBottom: "20px" }}
+      style={{ background: "#282d32", marginTop: "0", marginBottom: "20px" }}
     >
       <div className="row">
         <div className="col">
           <div
             className="card zines-card"
-            style={{ marginTop: "12px", background: "gray" }}
+            style={{ marginTop: "12px", background: "#282d32" }}
           >
             <div
               className="card-body zines-card-body"
-              style={{ marginTop: "15px" }}
+              style={{ marginTop: "15px"}}
             >
               <h4
                 className="card-title zines-card-title"
-                style={{ color: "white", fontSize: "31px" }}
+                style={{ color: "white", fontSize: "31px", }}
               >
                 Some of them, you can print too.
               </h4>
